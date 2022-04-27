@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:login_dice/dice.dart';
 import 'package:login_dice/login_app/login.dart';
+import 'package:login_dice/login_app/login_id_pw.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Dice game',
-      home: Login(),
+      home: LoginIdPw(),//LoginIdPw()//Dice()//Login()
     );
   }
 }
